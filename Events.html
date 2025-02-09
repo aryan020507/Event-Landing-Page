@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+     body{
+        background-image: linear-gradient(whitesmoke,indigo,whitesmoke);
+     }
+     footer{
+      border: 1.5px solid whitesmoke;
+            border-radius: 15px 30px 0px 0px;
+            padding: 25px 15px;
+            background-color: black;
+            display: flex;
+            border-radius: 2px solid brown;
+            color: white;
+     }
+     .f{
+      border: 1.5px solid whitesmoke;
+            border-radius: 0px 0px 45px 35px;
+           padding-left: 40%;
+            background-color: black;
+            text-align: center;
+            border-radius: 2px solid brown;
+            color: white;
+     }
+     .d{
+        text-align: right;
+        border-radius: 30px;
+        font-size: 22px;
+        padding-left: 20px;
+     }
+     .b{
+      padding-right: 20px;
+      text-align: left;
+     }
+     .c{
+      border: 1px;
+      border-radius: 30px;
+      text-align: right;
+      font-weight: bold;
+      font-size: 22px;
+      padding-left: 30px;
+      padding-right: 35px;
+     }
+     .logo{
+        width: 150px;
+        height: 150px;
+        border-radius: 45%;
+        border-left: 3px solid brown;
+
+     }
+     .logo2{
+      width: 150px;
+        height: 150px;
+        border-radius: 45%;
+        border-left: 3px solid brown;
+     }
+     .logo3{
+      width: 200px;
+        height: 20s0px;
+        border-radius: 45%;
+        border-left: 3px solid brown;
+        transition: 2s;
+     }
+     .logo3:hover{
+      touch-action: pinch-zoom;
+      width:300px;
+     }
+     .div1{
+      display: flex;
+
+     }
+     p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 45px;
+      
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+</head>
+<body>
+   <h1 style="text-align: center;color: rgb(94, 159, 216);margin: 25px;padding-top: 24px;font-size: 34px;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: 1.5px solid whitesmoke;
+           border-radius: 15px 30px 10px 10px;
+           padding: 25px 15px;
+           background-color: black;
+           box-shadow:4px 4px 14px grey inset ;
+           text-align: center;
+           border-radius: 2px solid brown;
+           color: white; ">
+       EVENTS</h1>
+       <hr style="border: 2px solid whitesmoke;">
+       <div class="div1">
+   <p id="demo"></p>
+ <h1 style="padding-top: 42px;padding-left: 20px;font-family: Arial, Helvetica, sans-serif;"> Time Remains To Start</h1>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 13, 2025 10:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script></div>
+<hr style="border: 2px solid whitesmoke;">
+       <section>
+        <pre><h1 align="center" style="font-size: 28px;padding-bottom: 18px;padding-right: 110px;">
+         GAME-O-PEDIA</h1></pre> <hr style="border: 2px solid whitesmoke;">
+         <div class="div1">
+           <p><img class="logo3" src="https://www.itvoice.in/wp-content/uploads/2023/05/bgmi-29th-may.webp"><br>
+            <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;BGMI</h3></p>
+            <p><img class="logo3" src="https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2021/03/Valorant.png?fit=1200%2C675&ssl=1"><br>
+               <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;VALORANT</h3></p>
+               <p><img class="logo3" src="https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg"><br>
+                  <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;AMONG US</h3></p>
+                  <p><img class="logo3" src="https://dl.dir.freefiremobile.com/common/web_event/hash/54f31449f5f91cf0cc223cc635cd5952jpg"><br>
+                     <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;FREEFIRE</h3></p>
+         </div>
+         <p align="center"><img class="logo3" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/FIFA_World_Version_8_title_screen.jpg/420px-FIFA_World_Version_8_title_screen.jpg"><br>
+            <h3 style="font-size: 20px;padding-left: 50px;padding-top: 0px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: center;">&rightarrow;FIFA</h3></p>
+            <hr style="border: 2px solid whitesmoke;">
+            
+             <pre><h1 align="center" style="font-size: 28px;padding-bottom: 18px;padding-right: 140px;">
+              NON-TECH EVENTS</h1></pre> <hr style="border: 2px solid whitesmoke;">
+           <div class="div1">
+            <p><img class="logo3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUFLeWXfz9HTpn2k-QjEe2SRQyCJb499JoKQ&s"><br>
+               <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;AVENGERS FC</h3></p>
+               <p><img class="logo3" src="https://media.istockphoto.com/id/1498453978/vector/pickleball-logo-with-crossed-racket-and-ball-above-them.jpg?s=612x612&w=0&k=20&c=NkwS_KUqWS3tc1-vmDaLJv0VF-YjtuUGLZjyLfhfrKU="><br>
+                  <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;PICKLE BALL</h3></p>
+                  <p><img class="logo3" src="https://toppng.com/uploads/preview/14th-15th-16th-17th-feb-box-cricket-logo-11562962590aj3wyclpf8.png"><br>
+                     <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;BOX CRICKET</h3></p>
+                     <p><img class="logo3" src="https://d2duuy9yo5pldo.cloudfront.net/zyngasupport/facef401-d0d4-4726-a3fa-d6fba358a669-2t.png"><br>
+                        <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;MARVEL MYSTERIES</h3></p>
+            </div>
+            <p align="center"><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/0Cl0aaxA.jpg"><br>
+               <h3 style="font-size: 20px;padding-left: 50px;padding-top: 0px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-align: center;">&rightarrow;GOOGLER</h3></p>
+               <hr style="border: 2px solid whitesmoke;">
+               
+               <pre><h1 align="center" style="font-size: 28px;padding-bottom: 18px;padding-right: 140px;">
+                ROBOTICS</h1></pre> <hr style="border: 2px solid whitesmoke;">
+             <div class="div1">
+              <p><img class="logo3" src="https://cdn.itrwrestling.com/app/uploads/content/1654184540349341332/wwe-hell-in-a-cell-2-640x360.jpg"><br>
+                 <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;HELL IN THE CELL</h3></p>
+                 <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/tEKWxk0k.jpg"><br>
+                    <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;ROBO FOOTER</h3></p>
+                    <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/OnqIzmXV.jpg"><br>
+                       <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;RC NITROS</h3></p>
+             </div>
+             <hr style="border: 2px solid whitesmoke;">
+               
+               <pre><h1 align="center" style="font-size: 28px;padding-bottom: 18px;padding-right: 140px;">
+                SPECIAL EVENTS</h1></pre> <hr style="border: 2px solid whitesmoke;">
+             <div class="div1">
+              <p><img class="logo3" src="https://img.freepik.com/premium-vector/colored-template-design-theme-paintball-his-helmet-weapon-blots_643070-100.jpg?ga=GA1.1.1077867288.1738915896&semt=ais_hybrid"><br>
+                 <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;PAINT BALL</h3></p>
+                 <p><img class="logo3" src="https://s3.ap-south-1.amazonaws.com/prod-easebuzz-bucket/easebuzz.in/merchant/files/38388/user-images/tWXCbGFt.jpg"><br>
+                    <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;BID BONANZO</h3></p>
+                    <p><img class="logo3" src="https://s3.ap-south-1.amazonaws.com/prod-easebuzz-bucket/easebuzz.in/merchant/files/38388/user-images/RwtkoB8M.jpg"><br>
+                       <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;AQUA SMASHDOWN</h3></p>
+             </div>
+             <hr style="border: 2px solid whitesmoke;">
+               
+               <pre><h1 align="center" style="font-size: 28px;padding-bottom: 18px;padding-right: 140px;">
+                TECHINCAL EVENTS</h1></pre> <hr style="border: 2px solid whitesmoke;">
+                <div class="div1">
+                  <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/xWZKLtCk.jpg"><br>
+                     <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;AIR BUZZ</h3></p>
+                     <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/ps67jQSZ.jpg"><br>
+                        <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;HACKERS MEET-UP</h3></p>
+                        <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/p3hSdP5T.jpg"><br>
+                           <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;CIVIL CREATION</h3></p>
+                           <p><img class="logo3" src="https://s3.ap-south-1.amazonaws.com/prod-easebuzz-bucket/easebuzz.in/merchant/files/38388/user-images/oVYe0bns.jpg"><br>
+                              <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;INFINITY CODES</h3></p>
+                  </div>
+                  <div class="div1">
+                     <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/Fd3WEaVT.jpg"><br>
+                        <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;WEB WARRIORS</h3></p>
+                        <p><img class="logo3" src="https://easebuzz.in/media/merchant/files/38388/user-images/r5oVso2o.jpg"><br>
+                           <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;ELECTRO MESH</h3></p>
+                           <p><img class="logo3" src="https://s3.ap-south-1.amazonaws.com/prod-easebuzz-bucket/easebuzz.in/merchant/files/38388/user-images/Xtg3BU4I.jpg"><br>
+                              <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;CODERZ ASSEMBLE</h3></p>
+                              <p><img class="logo3" src="https://s3.ap-south-1.amazonaws.com/prod-easebuzz-bucket/easebuzz.in/merchant/files/38388/user-images/Aq1xue21.jpg"><br>
+                                 <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;MECHAMAZE</h3></p>
+                     </div>
+                     <hr style="border: 2px solid whitesmoke;">
+               
+               <pre><h1 align="center" style="font-size: 28px;padding-bottom: 18px;padding-right: 140px;">
+                WORKSHOPS</h1></pre> <hr style="border: 2px solid whitesmoke;">
+                <div class="div1">
+                  <p><img class="logo3" src="https://img.freepik.com/premium-vector/cyber-security-logo-icon-symbol-vector-illustration-modern-cyber-security-logo_1123785-4553.jpg?w=900"><br>
+                     <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;CYBER SECURITY</h3></p>
+                     <p><img class="logo3" src="https://cdn.prod.website-files.com/59e16042ec229e00016d3a66/6441d5f76d21e1e4dee9ffa2_Gen%20AI%20blog_Blog%20hero.webp"><br>
+                        <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;GENERATIVE AI</h3></p>
+                        <p><img class="logo3" src="https://milligramit.com/wp-content/uploads/2018/05/graphic-design.jpg"><br>
+                           <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;GRAPHIC DESIGN</h3></p>
+                           <p><img class="logo3" src="https://cdn.prod.website-files.com/6344c9cef89d6f2270a38908/673f2a3b44c1ed4901bb43bb_6386328bea96dffacc89946b_d1.webp"><br>
+                              <h3 style="font-size: 20px;padding-left: 5px;padding-top: 50px;padding-right: 40px;border-right: 1.5px solid black; color: white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&rightarrow;WEB DEVELOPMENT</h3></p>
+                  </div>
+                  
+       </section>
+    
+
+
+
+
+
+       <hr style="border: 2px solid whitesmoke;">
+    <footer>
+      
+        <div class="b">
+           <p> <h2>PROJECTIONS-2025  X  FRESHERS FEST</h2>
+            &copy;Parul University<br><br><br>
+           You can Follow us On</p>
+           <a href="https://www.instagram.com/puprojections/"> <img class="logo" src="insta.jpg" alt="insta logo"></a>
+           <a href="https://www.facebook.com/PUProjections"><img class="logo2" src="fb.jpg" alt="facebook logo"></a>
+        </div>
+        <div class="c">
+          <p><h3>ADDRESS</h3>
+           <address>Parul University,<br> Post Limda-Waghodia,Gujarat</address><br>
+          <p><h4>Venue:</h4>
+           PID Ground, Ishwarpura Road, Gujarat, India</p>
+        </div>
+        <div class="d">
+           <p><h3>Call Us: +91 8983915062</h3>
+           <h3>Call Us: +91 7573917506</h3></p>
+        </div>
+     
+      </footer>
+      <footer class="f">
+        <p>Copyright&copy;2025 Parul University.All rights reserved.</p>
+      </footer>
+      
+</body>
+</html>

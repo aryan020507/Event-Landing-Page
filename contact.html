@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+    header{
+    border: 1.5px solid whitesmoke;
+            border-radius: 15px 30px 45px 35px;
+            padding: 30px 15px;
+            background-color: black;
+           text-align: center;
+            border-radius: 2px solid brown;
+}
+     body{
+        background-color: indigo;
+     }
+     footer{
+      border: 1.5px solid whitesmoke;
+            border-radius: 15px 30px 0px 0px;
+            padding: 25px 15px;
+            background-color: black;
+            display: flex;
+            border-radius: 2px solid brown;
+            color: white;
+     }
+     .f{
+      border: 1.5px solid whitesmoke;
+            border-radius: 0px 0px 45px 35px;
+           padding-left: 40%;
+            background-color: black;
+            text-align: center;
+            border-radius: 2px solid brown;
+            color: white;
+     }
+     .d{
+        text-align: right;
+        border-radius: 30px;
+        font-size: 22px;
+        padding-left: 20px;
+     }
+     .b{
+      padding-right: 20px;
+      text-align: left;
+     }
+     .c{
+      border: 1px;
+      border-radius: 30px;
+      text-align: right;
+      font-weight: bold;
+      font-size: 22px;
+      padding-left: 30px;
+      padding-right: 35px;
+     }
+     .logo{
+        width: 150px;
+        height: 150px;
+        border-radius: 45%;
+        border-left: 3px solid brown;
+        transition: 3s;
+     }
+     .logo:hover{
+      touch-action:pinch-zoom;
+      width: 200px;
+     }
+     .logo2{
+      width: 150px;
+        height: 150px;
+        border-radius: 45%;
+        border-left: 3px solid brown;
+        transition: 3s;
+     }
+     .logo2:hover{
+      touch-action:pinch-zoom;
+      width: 240px;
+     }
+     .p{
+        color: whitesmoke ;
+        font-size: 30spx;
+        
+     }
+     button[type=submit]{
+      border: 2px solids wheat;
+      border-radius: 30px;
+      font-size: 20px;
+      background-color: blueviolet;
+      color: aqua;
+      float: right;
+     }
+     input[type=text],input[type=email]{
+      border: 2px solids wheat;
+      border-radius: 20px;
+      font-size: 20px;
+      background-color: blueviolet;
+      color: aqua;
+     }
+     form{
+      font-size: 34px;
+      font-weight: bold;
+     }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+<body>
+    <header><h1 style="text-align: center;color: rgb(94, 159, 216);margin: 25px;padding-top: 24px;font-size: 34px;font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        CONTACT US</h1>
+        <p class="p">We are glade that you contact us. We are here to solve your problems or any kind of the query you have related to this events.
+            Feel free to ask and give us your important feedback.Our team is there for you and to reach out your questions and to resolve it as soon as possible.
+            So, Let we together make this Event successful!
+        </p>
+    </header>
+    
+    <section>
+      <form>
+         <br><br>Name:<br>
+         <input type="text" placeholder="   Enter Your Name" required size="140px"><br><br>
+         E-mail:<br>
+         <input type="email" placeholder="  Enter Your email i'd" required size="140px"><br><br>
+         Message:<br>
+        <textarea style="border: 2px solids wheat;
+        border-radius: 20px;
+        font-size: 20px;
+        background-color: blueviolet;
+        color: aqua;"
+         placeholder="   Drop-Down your message here" rows="10" cols="132" size="140px"></textarea><br><br>
+        <button type="submit" value="SUBMIT" onClick="myFunction()">SUBMIT</button> <br><br><br><br><br><br>
+        <script>
+         function myFunction() {
+           alert("It reaches to me!");
+         }
+         </script>
+      </form>
+
+    </section>
+    
+    
+    
+    <footer>
+      <div class="b">
+           <p> <h2>PROJECTIONS-2025  X  FRESHERS FEST</h2>
+            &copy;Parul University<br><br><br>
+           You can Follow us On</p>
+           <a href="https://www.instagram.com/puprojections/"> <img class="logo" src="insta.jpg" alt="insta logo"></a>
+           <a href="https://www.facebook.com/PUProjections"><img class="logo2" src="fb.jpg" alt="facebook logo"></a>
+        </div>
+        <div class="c">
+          <p><h3>ADDRESS</h3>
+           <address>Parul University,<br> Post Limda-Waghodia,Gujarat</address><br>
+          <p><h4>Venue:</h4>
+           PID Ground, Ishwarpura Road, Gujarat, India</p>
+        </div>
+        <div class="d">
+           <p><h3>Call Us: +91 8983915062</h3>
+           <h3>Call Us: +91 7573917506</h3></p>
+        </div>
+     
+      </footer>
+      <footer class="f">
+        <p>Copyright&copy;2025 Parul University.All rights reserved.</p>
+      </footer>
+      
+</body>
+</html>
